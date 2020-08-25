@@ -38,7 +38,7 @@ const App = () => {
   return (
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
-        <input className="search-bar" type="text" value={search} onChange={updateSearch} />
+        <input className="search-bar" type="text" value={search} onChange={updateSearch} placeholder='Search for a food'/>
         <button className="search-button" type="submit">
           Search
         </button>
